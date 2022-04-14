@@ -2,7 +2,7 @@ const convertor = document.querySelector('#convertor');
 const img = document.querySelector('img');
 const change = document.querySelector('#change');
 
-const imgList = ["./img/dollar.png", "./img/euro.png", " ./img/iene.png"];
+const imgList = ["./img/dollar.png", "./img/euro.png", " ./img/Iene.png"];
 
 //images of coins
 function changeimage() {

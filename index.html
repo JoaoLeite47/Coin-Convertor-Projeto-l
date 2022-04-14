@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- The language are Ingles, i chose this for pattern-->
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Coin Convertor</title>
+        <link rel="stylesheet" href="./css/style.css" />
+    </head>
+    <body>
+        <nav>
+            <h1 id="nav">Coin Convertor</h1>
+        </nav>
+        <header>
+            <h2 id="header">Convert Real to another coins!</h2>
+        </header>
+        <!-- The base of explanation -->
+        <main id="main">
+            <section id="section">
+                <div id="div1">
+                    <h3>Real to Dollar!</h3>
+                    <p>Each Real is worth 0,21 Dollar</p>
+                </div>
+                <div id="div2">
+                    <h3>Real to Euros!</h3>
+                    <p>Each Real is worth 0,20 Euros</p>
+                </div>
+                <div id="div3">
+                    <h3>Real to Iene!</h3>
+                    <p>Each Real is worth 27.03 Ienes</p>
+                </div>
+                <form id="form">
+                    <p>Real</p>
+                    <input
+                        type="number"
+                        id="real"
+                        name="real"
+                        min="1"
+                        max="999999999"
+                        step="0.1"
+                    />
+                    <button type="submit" id="convertor">Convertor</button>
+
+                    <div id="coin">
+                        <img
+                            src="./img/dollar.png"
+                            alt="dollar"
+                            width="50px"
+                        />
+                        <input
+                            type="button"
+                            value="Dollar"
+                            id="change"
+                            onclick="changeimage()"
+                        />
+                    </div>
+                </form>
+            </section>
+        </main>
+        <script src="./js/script.js"></script>
+    </body>
+</html>
